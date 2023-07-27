@@ -4612,7 +4612,8 @@ footer form {
 }
 
 .top-bar ul {
-    display: inline-flex
+    display: inline-flex;
+    margin: -3px 0;
 }
 
 .top-bar ul li {
