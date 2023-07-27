@@ -4834,7 +4834,7 @@ nav.nav-primary .custom-logo-link img {
 
 @media screen and (min-width:1200px) {
     nav.nav-primary .custom-logo-link {
-        left: unset;
+        left: 20px;
         top: -40px
     }
 }
@@ -4859,7 +4859,7 @@ nav.nav-primary .menu-main-menu-container {
 
 @media screen and (min-width:1200px) {
     nav.nav-primary .menu-main-menu-container {
-        width: calc(100% - 325px)
+        width: calc(100% - 500px)
     }
 }
 
@@ -7244,7 +7244,7 @@ body#tinymce {
 
 @media screen and (min-width:900px) {
     #book-now-pullout {
-        right: calc(-35vw - 250px);
+        right: calc(-35vw - 215px);
         padding: 35px 20px 34px;
         width: 600px
     }
@@ -7490,8 +7490,8 @@ body#tinymce {
 
 @media screen and (min-width:680px) {
     #book-now-pullout .book-now-tab .tab-closed {
-        font-size: 1.25em;
-        margin-left: 15px;
+        font-size: 1em;
+        margin-left: 0;
         margin-top: 5px;
         font-family: Kanit, sans-serif;
         font-weight: 700;
