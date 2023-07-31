@@ -686,6 +686,8 @@ table tr:last-child {
     margin-bottom: 0
 }
 
+
+
 .slick-dots {
     position: absolute;
     bottom: -60px;
@@ -5688,19 +5690,32 @@ footer .col:nth-child(6) p:first-child {
     margin-top: 40px;
     margin-bottom: 25px
 }
+.block_post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block_post .post_item{
+    overflow: hidden;
+    width: 20%;
+    height: 250px;
+}
+.block_post .post_item img{
+    width: 100%;
+}
 
-@media screen and (min-width:900px) {
+/* @media screen and (min-width:900px) {
     .social-feed-block .block-header {
         margin-top: 60px;
         margin-bottom: 100px
     }
-}
+} */
 
-@media screen and (min-width:1200px) {
+/* @media screen and (min-width:1200px) {
     .social-feed-block .block-header {
         margin-bottom: 100px
     }
-}
+} */
 
 .social-feed-block .block-header h3 {
     color: var(--primary-color);
@@ -8245,7 +8260,8 @@ body#tinymce {
 
 @media screen and (min-width:680px) {
     .academies-section {
-        margin-top: 150px
+        margin-top: 150px;
+        margin-bottom: 150px;
     }
 
     .academies-section:before {
@@ -8257,11 +8273,11 @@ body#tinymce {
     }
 }
 
-@media screen and (min-width:900px) {
-    .academies-section {
+ @media screen and (min-width:900px) {
+   /* .academies-section {
         margin-top: 200px;
         margin-bottom: 100px
-    }
+    } */
 
     .academies-section:before {
         top: -350px;
@@ -8271,10 +8287,10 @@ body#tinymce {
 }
 
 @media screen and (min-width:1200px) {
-    .academies-section {
+    /* .academies-section {
         margin-bottom: 150px;
         margin-top: 300px
-    }
+    } */
 
     .academies-section:before {
         top: -450px;
@@ -8490,6 +8506,23 @@ body#tinymce {
     margin-bottom: 20px;
     display: flex;
     align-items: center
+}
+.academies-section .academy-item .text-content.coaches_title h4{
+    margin-bottom: 5px;
+    white-space: nowrap;
+    min-height: auto !important;    
+}
+.academies-section .academy-item .text-content.coaches_title{
+    padding: 10px 0;
+}
+.academies-section .academy-item .text-content.coaches_title small{
+    margin-bottom: 1rem;
+    display: block;
+}
+.academies-section .academy-item .text-content.coaches_title p{
+    margin-bottom: 2rem;
+    padding: 0px 16px;
+    text-align: justify;
 }
 
 @media screen and (min-width:900px) {
