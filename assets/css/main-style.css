@@ -1661,7 +1661,7 @@ footer form {
 }
 .event_parallax{
     position: relative;
-    opacity: 0.75;
+    opacity: 1;
     background-attachment: fixed !important;
     background-position: center !important;
     background-repeat: no-repeat;
