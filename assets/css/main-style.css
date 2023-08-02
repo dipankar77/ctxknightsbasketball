@@ -7488,7 +7488,7 @@ body#tinymce {
     font-weight: 700;
     text-transform: uppercase;
     display: none;
-    color: var(--primary-color);
+    color: var(--dark-color);
     text-align: center;
     padding-left: 50px;
     z-index: 0
@@ -7497,7 +7497,14 @@ body#tinymce {
 #book-now-pullout .book-now-tab .tab-open .btn {
     height: 48px;
     padding-top: 11px;
-    padding-bottom: 11px
+    padding-bottom: 11px;
+    background-color: var(--dark-color);
+    color: #fff;
+    border-color: var(--dark-color);
+}
+#book-now-pullout .book-now-tab .tab-open .btn:hover{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 #book-now-pullout .book-now-tab .tab-open p {
@@ -7668,14 +7675,14 @@ body#tinymce {
 }
 
 #book-now-pullout .academy-list .academy-item.selected p {
-    color: var(--primary-color)
+    color: var(--dark-color)
 }
 
 #book-now-pullout .academy-name {
     font-family: Kanit, sans-serif;
     font-weight: 700;
     font-style: italic;
-    color: var(--hover-color);
+    color: var(--dark-color);
     text-align: center;
     text-transform: uppercase;
     font-size: .75em;
@@ -8896,10 +8903,12 @@ body#tinymce {
     padding-top: 20px
 }
 .testimonials-section .text-content.coaches_text{
-    background-color: #fff !important;
+    background-color: transparent !important;
     color: var(--dark-color);
     text-align: left !important;
-    justify-content: flex-start;
+    justify-content: center;
+    flex-flow: column !important;
+    align-items: flex-start;
 }
 
 @media screen and (min-width:900px) {
