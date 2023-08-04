@@ -6062,10 +6062,17 @@ footer .col:nth-child(6) p:first-child {
 }
 
 #banner .banner-slide__inside {
-    height: inherit;
-    
+    height: inherit;    
 }
+.banner-slide.banner-slide__style-three{filter: grayscale(1);}
+.banner-slide.banner-slide__style-three:hover{filter: none; cursor: pointer;}
+#banner .banner-slide__inside img{width: 100%; }
 
+.hero_text{
+    position: absolute;
+    top: 0;
+    left: 7%;
+}
 
 #banner .banner-slide {
     height: calc(90vh - 125px);
