@@ -95,7 +95,8 @@ html {
 body {
     font-size: 100%;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #000;
 }
 
 img {
@@ -591,7 +592,7 @@ button:hover {
 }
 
 .text-secondary {
-    color: var(--dark-color)
+    color: var(--primary-color)
 }
 
 .text-tertiary {
@@ -2476,6 +2477,7 @@ footer form {
 .flexi-content.large-block-block .large-block__container.bg-secondary {
     background-color: var(--dark-color);
     margin-bottom: 200px;
+    border: 2px solid var(--primary-color);
 }
 
 .flexi-content.large-block-block .large-block__container.bg-tertiary {
@@ -4490,7 +4492,7 @@ footer form {
 }
 
 .top-bar {
-    background-color: var(--dark-color);
+    background-color: var(--primary-color);
     height: 46px;
     transition: all .5s ease
 }
@@ -4855,9 +4857,9 @@ nav.nav-primary .custom-logo-link {
     left: 25px
 }
 
-nav.nav-primary .custom-logo-link img {
+/* nav.nav-primary .custom-logo-link img {
     filter: drop-shadow(2px 3px 0 white) drop-shadow(-2px 3px 0 white)
-}
+} */
 
 @media screen and (min-width:900px) {
     nav.nav-primary .custom-logo-link {
@@ -4866,15 +4868,15 @@ nav.nav-primary .custom-logo-link img {
         position: relative
     }
 
-    nav.nav-primary .custom-logo-link img {
+    /* nav.nav-primary .custom-logo-link img {
         filter: drop-shadow(5px 6px 0 white) drop-shadow(-5px 6px 0 white)
-    }
+    } */
 }
 
 @media screen and (min-width:1200px) {
     nav.nav-primary .custom-logo-link {
         left: 20px;
-        top: -40px
+        top: -47px
     }
 }
 
@@ -4935,13 +4937,13 @@ nav.nav-primary .menu-main-menu-container ul li a {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    color: #000;
+    color: #fff;
     padding: 0 15px;
     line-height: 30px;
 }
 
 nav.nav-primary .menu-main-menu-container ul li a:hover {
-    color: var(--hover-color)
+    color: var(--primary-color)
 }
 nav.nav-primary .menu-main-menu-container ul li:hover ul.sub_menu{
     display: block;
@@ -5739,7 +5741,19 @@ footer .col:nth-child(6) p:first-child {
     font-size: 1.75em;
     font-family: Kanit, sans-serif;
     font-weight: 800;
+    margin-bottom: 1rem;
     font-style: italic
+}
+.social-feed-block .block-header h4{
+    color: var(--primary-color);
+}
+
+.block-header ul li{display: inline-block;}
+.block-header ul li a{margin-top: 1rem !important;}
+
+
+.block-header ul li a:hover{
+    color: #fff !important;
 }
 
 @media screen and (min-width:900px) {
@@ -8465,8 +8479,9 @@ body#tinymce {
 }
 
 .academies-section .academy-item {
-    border: 2px solid #000;
+    border: 2px solid var(--primary-color);
     overflow: hidden;
+    background-color: #fff;
     height: 500px
 }
 
@@ -8929,7 +8944,7 @@ body#tinymce {
 }
 .testimonials-section .text-content.coaches_text{
     background-color: transparent !important;
-    color: var(--dark-color);
+    color: #fff;
     text-align: left !important;
     justify-content: center;
     flex-flow: column !important;
@@ -8954,7 +8969,9 @@ body#tinymce {
     .testimonials-section .text-content {
         width: 77.5%;
         padding: 0 30% 0 100px;
-        height: 550px
+        height: 550px;
+        border:2px solid var(--primary-color)
+
     }
 }
 
@@ -8983,7 +9000,7 @@ body#tinymce {
 }
 
 .testimonials-section .text-content.coaches_text h3{
-    color: #000;
+    color: #fff;
     padding:0 0 0.5rem 0 !important;
 }
 .testimonials-section .text-content.coaches_text small{
