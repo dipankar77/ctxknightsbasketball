@@ -1666,8 +1666,8 @@ footer form {
     opacity: 1;
     background-attachment: fixed !important;
     background-position: center !important;
-    background-repeat: no-repeat;
-    background-size: cover !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
     min-height: 450px;
     margin-bottom: 0 !important;
     filter: grayscale(1);
@@ -2020,7 +2020,7 @@ footer form {
 }
 
 .large-arrows.banner-arrow__next:hover svg path, .large-arrows.banner-arrow__prev:hover svg path{    
-    fill: #8b0000;
+    fill: var(--secondary-color);
 }
 
 .flexi-content.video-gallery-block .large-arrows.banner-arrow__next,
@@ -2032,7 +2032,7 @@ footer form {
 
 .flexi-content.video-gallery-block .large-arrows.banner-arrow__next svg:hover .arrow,
 .flexi-content.video-gallery-block .large-arrows.banner-arrow__prev svg:hover .arrow {
-    fill: var(--hover-color)
+    fill: var(--secondary-color)
 }
 
 .flexi-content.video-gallery-block .large-arrows.banner-arrow__prev {
@@ -2149,11 +2149,11 @@ footer form {
 
 .flexi-content.video-gallery-block .slick-slide .slide-item .video-poster:hover svg{
     cursor: pointer;
-    color: #8B0000;
+    color: var(--secondary-color);
 }
 
 .flexi-content.video-gallery-block .slick-slide .slide-item .video-poster:hover svg path {
-    stroke: #8B0000;
+    stroke: var(--secondary-color);
     transition: all .5s ease
 }
 
@@ -8652,7 +8652,7 @@ body#tinymce {
 
 .academies-section .large-arrows.banner-arrow__next svg:hover .arrow,
 .academies-section .large-arrows.banner-arrow__prev svg:hover .arrow {
-    fill: var(--hover-color);
+    fill: var(--secondary-color);
     transition: all .5s ease
 }
 
@@ -8943,7 +8943,7 @@ body#tinymce {
     padding-top: 20px
 }
 .testimonials-section .text-content.coaches_text{
-    background-color: transparent !important;
+    background-color: #000 !important;
     color: #fff;
     text-align: left !important;
     justify-content: center;
@@ -9178,7 +9178,7 @@ body#tinymce {
 
 .testimonials-section .large-arrows.banner-arrow__next svg:hover .arrow,
 .testimonials-section .large-arrows.banner-arrow__prev svg:hover .arrow {
-    fill: var(--hover-color);
+    fill: var(--secondary-color);
     transition: all .5s ease
 }
 
