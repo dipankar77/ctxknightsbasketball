@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 486.533 496.5">
+  <defs>
+    <clipPath id="tri-a">
+      <path data-name="Path 24" d="m1343.894 2283.13-.478-436.312 436.79 436.79Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+  </defs>
+  <g data-name="Group 54">
+    <g data-name="Group 7">
+      <path data-name="Path 22" d="M1.501 1.5v443.922h430.227" fill="none" stroke="#f2e327" stroke-linecap="square" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+
+    <g data-name="Group 10">
+      <g data-name="Group 9">
+        <g data-name="Group 8" clip-path="url(#tri-a)" transform="translate(-1293.672 -1787.108)">
+          <path data-name="Path 23" d="m1343.894 2283.13-.478-436.312 436.79 436.79Z" fill="none" stroke="#f2e327" stroke-miterlimit="10" stroke-width="6"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
