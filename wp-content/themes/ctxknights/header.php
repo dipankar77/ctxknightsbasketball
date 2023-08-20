@@ -26,19 +26,7 @@
       <!-- page loader end -->
 
       <div class="top-bar">
-         <div class="container container__xl">
-            <div class="col d-none-sm"></div>
-            <div class="col">
-               
-               <div class="slider-container">
-                  <div class="slick__fade" dir="rtl">
-                     <p>Book on to our Holiday Academy now <a href="#">Click here</a></p>
-                     <p>Book on to our Development Academy now <a href="#">Click Here</a></p>
-                     <p>Book on to our Elite Development Academy now <a href="#">Click here</a></p>
-                     <p>Book on to our Future Stars Academy now <a href="#">Click here</a></p>
-                  </div>
-               </div>
-            </div>
+         <div class="container container__xxl">
             <div class="col d-none-sm">
                <ul>
                   <li>
