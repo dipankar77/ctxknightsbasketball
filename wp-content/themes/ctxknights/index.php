@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <!-- hero banner start -->
 <div id="banner">
-    <div class="banner-arrow__prev large-arrows">
+    <!-- <div class="banner-arrow__prev large-arrows">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.913 64.642">
             <defs />
             <g data-name="Group 2" stroke-miterlimit="10">
@@ -27,31 +27,19 @@
             <path data-name="Path Copy 7" d="M7.86306781 14.53806781L.792 7.467 7.86306781.39593219" fill="none"
                 stroke="#fff" stroke-miterlimit="10" stroke-width="1.12" />
         </svg>
-    </div>
-    <div class="front-page__slick">
+    </div> -->
 
+    <div class="front-page__slick">
         <div class="banner-slide banner-slide__style-three">
             <div class="banner-slide__inside">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-banner.jpeg" alt="">
             </div>
-            <!-- <div class="container container__xl hero_text">
-               <div class="text-content">
-                  <h1>Summer Of Football Is Here!</h1>
-                  <p class="subtitle">Book Now!</p>
-                  <p>Summer Academy 1: 25th-27th July</p>
-                  <p>Summer Academy 2: 9th-11th August</p>
-                  <p>Summer Academy 3: 22nd-24th August</p>
-                  <a class="btn btn__primary" href="#">Find Out More</a>
-               </div>
-            </div> -->
-
         </div>
 
-        <div class="banner-slide banner-slide__style-three">
+        <!-- <div class="banner-slide banner-slide__style-three">
             <div class="banner-slide__inside">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-banner-1.png" alt="">
             </div>
-
             <div class="container container__xl hero_text">
                 <div class="text-content">
                     <h1>Future Stars</h1>
@@ -61,9 +49,7 @@
                     <p>Reception &amp; Year 1</p>
                     <a class="btn btn__primary" href="#">Find Out More</a>
                 </div>
-            </div>
-
-            <!-- <div class="overlay"></div> -->
+            </div>            
         </div>
 
         <div class="banner-slide banner-slide__style-three">
@@ -81,11 +67,11 @@
                 </div>
             </div>
 
-            <!-- <div class="overlay"></div> -->
-        </div>
+           
+        </div> -->
 
     </div>
-    <div class="banner-arrow__next large-arrows">
+    <!-- <div class="banner-arrow__next large-arrows">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.913 64.642">
             <defs></defs>
             <g data-name="Group 3">
@@ -106,7 +92,7 @@
             <path data-name="Path Copy 6" d="M7.07093219.39593219L14.142 7.467l-7.07106781 7.07106781" fill="none"
                 stroke="#fff" stroke-miterlimit="10" stroke-width="1.12" />
         </svg>
-    </div>
+    </div> -->
 
 </div>
 <div class="banner-bottom">
@@ -426,7 +412,7 @@
         </div>
 
 
-        <div class="flexi-content half-and-half-block layout_text-image">
+        <div class="flexi-content half-and-half-block layout_text-image ctxselect">
             <div class="container container__xl">
                 <div class="block-container">
                     <div class="text-content bg_tertiary">
@@ -464,11 +450,9 @@
                             </g>
                         </svg>
                         <h3>CTX KNIGHTS SELECT</h3>                       
-                        <p>Our Elite Development Squad (EDS)is the highest tier of the Yorkshire Elite Football Academy.
-                            The squad provides a stepping stone for a player’s development with player’s coming from
-                            junior football clubs across Yorkshire.</p>
+                        <p>CTX Knights Basketball Academy has a four-tier program designed to meet the needs of every parent and youth athlete regardless of skill level.</p>
                        
-                        <a href="#" class="btn btn__primary"> Register</a>
+                        <a href="#" class="btn btn__primary register"> Register</a>
                     </div>
 
                     <div class="media-content">
@@ -479,7 +463,7 @@
         </div>
 
 
-        <div class="flexi-content half-and-half-block layout_image-text">
+        <div class="flexi-content half-and-half-block layout_image-text ctxelight">
             <div class="container container__xl">
                 <div class="block-container">
                     <div class="media-content">
@@ -503,15 +487,14 @@
                             </g>
                         </svg>
                         <h3>CTX KNIGHTS ELITE</h3>
-                        <p>Our development session is a service that allows players of all abilities to book as
-                            individuals and come together as a group to work on a specific topic.</p>
-                        <a href="#" class="btn btn__primary"> Register</a>
+                        <p>CTX Knights Basketball Academy has a four-tier program designed to meet the needs of every parent and youth athlete regardless of skill level.</p>
+                        <a href="#" class="btn btn__primary register">Register</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="flexi-content half-and-half-block layout_text-image">
+        <div class="flexi-content half-and-half-block layout_text-image ctxpremier">
   <div class="container container__xl">
     <div class="block-container">
               <div class="text-content bg_tertiary">
@@ -524,9 +507,9 @@
 </svg>
           
           <h3>CTX KNIGHTS PREMIER</h3>
-          <p>The session is all about maximising the number of touches of the ball, with the aim of a minimum of 500 touches which will give them confidence to try new skills.</p>
+          <p>CTX Knights Basketball Academy has a four-tier program designed to meet the needs of every parent and youth athlete regardless of skill level.</p>
 
-<a href="#" class="btn btn__primary"> Register</a>
+<a href="#" class="btn btn__primary register"> Register</a>
 
                   </div>
 
